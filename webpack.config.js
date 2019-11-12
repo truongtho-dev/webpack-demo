@@ -14,7 +14,9 @@ const config = {
         use: "babel-loader"
       },
       {
-        test: /\.css$/,
+        // For pure CSS (without CSS modules)
+        test: /\.css$/i,
+        exclude: /\.module\.css$/i,
         use: ["style-loader", "css-loader"]
       }
     ]
