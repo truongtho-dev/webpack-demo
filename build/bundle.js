@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/image.js":
+/*!**********************!*\
+  !*** ./src/image.js ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar image = document.createElement(\"img\");\nimage.src = \"https://lorempixel.com/600/600/\";\ndocument.body.prepend(image);\n\n//# sourceURL=webpack:///./src/image.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -94,31 +106,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _total = __webpack_require__(/*! ./total */ \"./src/total.js\");\n\nvar _total2 = _interopRequireDefault(_total);\n\nvar _math = __webpack_require__(/*! ./math */ \"./src/math.js\");\n\nvar _math2 = _interopRequireDefault(_math);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar x = (0, _math2.default)(6, 8);\nconsole.log(x);\ndocument.write(x);\n(0, _total2.default)();\n\n//# sourceURL=webpack:///./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/math.js":
-/*!*********************!*\
-  !*** ./src/math.js ***!
-  \*********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nvar sum = function sum(a, b) {\n  return a + b;\n};\nmodule.exports = sum;\n\n//# sourceURL=webpack:///./src/math.js?");
-
-/***/ }),
-
-/***/ "./src/total.js":
-/*!**********************!*\
-  !*** ./src/total.js ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = total;\nfunction total() {\n  console.log(\"This is total module\");\n}\n\n//# sourceURL=webpack:///./src/total.js?");
+eval("\n\n__webpack_require__(/*! ./image */ \"./src/image.js\");\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
