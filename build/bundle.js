@@ -106,7 +106,7 @@ eval("\n\nvar image = document.createElement(\"img\");\nimage.src = \"https://lo
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! ./image */ \"./src/image.js\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\n__webpack_require__(/*! ./image.js */ \"./src/image.js\");\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

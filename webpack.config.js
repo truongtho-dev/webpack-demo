@@ -10,12 +10,12 @@ const config = {
   module: {
     rules: [
       {
-        use: "babel-loader",
-        test: /\.js$/
+        test: /\.js$/,
+        use: "babel-loader"
       },
       {
-        use: ["style-loader", "css-loader"],
-        test: /\.css$/
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
       }
     ]
   }
